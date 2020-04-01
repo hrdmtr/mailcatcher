@@ -6,7 +6,7 @@ RUN apk add --update --virtual build-dependencies \
   ruby-dev \
   && apk add --update libstdc++ \
   sqlite-dev \
-  && gem install mailcatcher -v 0.5.12 --no-rdoc --no-ri \
+  && gem install mailcatcher -v 0.5.12 -N \
   && apk del build-dependencies
 
 EXPOSE 1080 1025
