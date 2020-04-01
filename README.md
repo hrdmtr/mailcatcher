@@ -31,3 +31,8 @@ start:
 
 Newer versions fix this, but the mailcatcher dependency cannot be easily
 changed.  The warning can safely be ignored.
+
+
+
+## History
+2020-04-01 update Dockerfile
